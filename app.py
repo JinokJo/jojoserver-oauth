@@ -31,7 +31,7 @@ def oauth2callback():
     </head>
     <body>
         <h2>✅ 인증 코드 반환</h2>
-        <p>아래 코드를 복사하여 라즈베리파이에 입력하세요.</p>
+        <p>아래 코드를 복사하여 전자액자 설정페이지에 입력하세요.</p>
         <textarea id="codeBox" readonly>{code}</textarea><br>
         <button onclick="copyCode()">📋 복사하기</button>
 
