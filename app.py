@@ -30,10 +30,10 @@ def oauth2callback():
         </style>
     </head>
     <body>
-        <h2>✅ 인증 코드 반환</h2>
+        <h2>✅ 인증 코드 발급완료!</h2>
         <p>아래 코드를 복사하여 전자액자 설정페이지에 입력하세요.</p>
         <textarea id="codeBox" readonly>{code}</textarea><br>
-        <button onclick="copyCode()">📋 복사하기</button>
+        <button onclick="copyCode()" style="font-weight: bold;">📋 복사하기</button>
 
         <script>
             function copyCode() {{
@@ -41,7 +41,7 @@ def oauth2callback():
                 copyText.select();
                 copyText.setSelectionRange(0, 99999); // 모바일 대응
                 document.execCommand("copy");
-                alert("복사되었습니다!");
+                alert("✅ 복사되었습니다.");
             }}
         </script>
     </body>
