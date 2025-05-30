@@ -61,7 +61,7 @@ def privacy():
         </style>
     </head>
     <body>
-        <h1>Google OAuth 개인정보처리방침</h1>
+        <h1>개인정보처리방침</h1>
     
         <h2>1. Google 계정 연동 시 수집하는 정보</h2>
         <p>사용자가 Google 계정으로 서비스를 연동할 경우, Google OAuth 2.0 인증을 통해 다음과 같은 정보가 수집될 수 있습니다.</p>
