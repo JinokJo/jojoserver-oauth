@@ -13,7 +13,7 @@ def oauth2callback():
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>인증 코드 반환</title>
+        <title>인증 코드 발급</title>
         <style>
             textarea {{
                 width: 90%;
