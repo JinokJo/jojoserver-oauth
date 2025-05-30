@@ -177,7 +177,7 @@ def terms():
     
         <h2>제9조 (문의)</h2>
         <p>서비스 이용 중 궁금한 점이나 불편 사항은 아래로 문의 주시기 바랍니다.</p>
-        <p>이메일: <a href="mailto:contact@jojoserver.com">contact@jojoserver.com</a></p>
+        <p>이메일: <a href="mailto:developer@jojoserver.com">developer@jojoserver.com</a></p>
     
         <p><strong>시행일자:</strong> 2025년 5월 30일</p>
     </body>
