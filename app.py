@@ -42,6 +42,7 @@ def oauth2callback():
                 copyText.setSelectionRange(0, 99999); // 모바일 대응
                 document.execCommand("copy");
                 alert("✅ 복사되었습니다.");
+                window.close();  // 🔴 창 닫기 시도
             }}
         </script>
     </body>
